@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'reactstrap' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData reactstrap
+8 silly fetchNamedPackageData reactstrap
+9 silly mapToRegistry name reactstrap
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'reactstrap',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'reactstrap',
+12 silly mapToRegistry   name: 'reactstrap',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/reactstrap
+14 verbose request uri https://registry.npmjs.org/reactstrap
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:22:18 AM
+17 verbose request id f1c39abaa289f711
+18 verbose etag W/"58a33994-4472b"
+19 verbose lastModified Tue, 14 Feb 2017 17:08:36 GMT
+20 http request GET https://registry.npmjs.org/reactstrap
+21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+22 info attempt registry request try #2 at 11:22:28 AM
+23 verbose etag W/"58a33994-4472b"
+24 verbose lastModified Tue, 14 Feb 2017 17:08:36 GMT
+25 http request GET https://registry.npmjs.org/reactstrap
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+27 info attempt registry request try #3 at 11:23:28 AM
+28 verbose etag W/"58a33994-4472b"
+29 verbose lastModified Tue, 14 Feb 2017 17:08:36 GMT
+30 http request GET https://registry.npmjs.org/reactstrap
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/reactstrap from cache
+33 verbose get saving reactstrap to C:\Users\sabih\AppData\Roaming\npm-cache\registry.npmjs.org\reactstrap\.cache.json
+34 verbose correctMkdir C:\Users\sabih\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 silly install normalizeTree
+36 silly loadCurrentTree Finishing
+37 silly loadIdealTree Starting
+38 silly install loadIdealTree
+39 silly cloneCurrentTree Starting
+40 silly install cloneCurrentTreeToIdealTree
+41 silly cloneCurrentTree Finishing
+42 silly loadShrinkwrap Starting
+43 silly install loadShrinkwrap
+44 silly loadShrinkwrap Finishing
+45 silly loadAllDepsIntoIdealTree Starting
+46 silly install loadAllDepsIntoIdealTree
+47 silly resolveWithNewModule reactstrap@4.2.0 checking installable status
+48 silly cache add args [ 'reactstrap', null ]
+49 verbose cache add spec reactstrap
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'reactstrap',
+50 silly cache add   scope: null,
+50 silly cache add   escapedName: 'reactstrap',
+50 silly cache add   name: 'reactstrap',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag' }
+51 silly addNamed reactstrap@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for reactstrap
+53 info addNameTag [ 'reactstrap', 'latest' ]
+54 silly mapToRegistry name reactstrap
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'reactstrap',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'reactstrap',
+57 silly mapToRegistry   name: 'reactstrap',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/reactstrap
+59 verbose addNameTag registry:https://registry.npmjs.org/reactstrap not in flight; fetching
+60 verbose get https://registry.npmjs.org/reactstrap not expired, no request
+61 silly addNameTag next cb for reactstrap with tag latest
+62 silly addNamed reactstrap@4.2.0
+63 verbose addNamed "4.2.0" is a plain semver version for reactstrap
+64 silly mapToRegistry name reactstrap
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'reactstrap',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   escapedName: 'reactstrap',
+67 silly mapToRegistry   name: 'reactstrap',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri https://registry.npmjs.org/reactstrap
+69 verbose addRemoteTarball https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz not in flight; adding
+70 verbose addRemoteTarball [ 'https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz',
+70 verbose addRemoteTarball   '52658ac3bfdec5d62b3d76b68451deb41366416d' ]
+71 info retry fetch attempt 1 at 11:23:31 AM
+72 info attempt registry request try #1 at 11:23:31 AM
+73 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+74 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+75 info attempt registry request try #2 at 11:23:41 AM
+76 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+77 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+78 info attempt registry request try #3 at 11:24:41 AM
+79 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+80 error fetch failed https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+81 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+82 info retry fetch attempt 2 at 11:24:51 AM
+83 info attempt registry request try #1 at 11:24:51 AM
+84 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+85 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+86 info attempt registry request try #2 at 11:25:01 AM
+87 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+88 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+89 info attempt registry request try #3 at 11:26:01 AM
+90 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+91 error fetch failed https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+92 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+93 info retry fetch attempt 3 at 11:27:01 AM
+94 info attempt registry request try #1 at 11:27:01 AM
+95 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 info attempt registry request try #2 at 11:27:11 AM
+98 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+99 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+100 info attempt registry request try #3 at 11:28:11 AM
+101 http fetch GET https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+102 error fetch failed https://registry.npmjs.org/reactstrap/-/reactstrap-4.2.0.tgz
+103 silly rollbackFailedOptional Starting
+104 silly rollbackFailedOptional Finishing
+105 silly runTopLevelLifecycles Finishing
+106 silly install printInstalled
+107 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+107 verbose stack     at errnoException (dns.js:28:10)
+107 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+108 verbose cwd G:\web work\making projects\project-1-Menu
+109 error Windows_NT 10.0.14393
+110 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "reactstrap"
+111 error node v6.9.4
+112 error npm  v3.10.10
+113 error code ENOTFOUND
+114 error errno ENOTFOUND
+115 error syscall getaddrinfo
+116 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+117 error network This is most likely not a problem with npm itself
+117 error network and is related to network connectivity.
+117 error network In most cases you are behind a proxy or have bad network settings.
+117 error network
+117 error network If you are behind a proxy, please make sure that the
+117 error network 'proxy' config is set properly.  See: 'npm help config'
+118 verbose exit [ 1, true ]
